@@ -1,0 +1,96 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+html
+{
+	background-image: url('../img/back.png');
+	background-size: 100% ;
+	background-repeat: no-repeat;
+}
+html header
+{
+	background-image: url('../img/header.png');
+	min-height: 218px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.wrapper
+{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 2em;
+	margin-bottom: 2em;
+	
+}
+.CasesOfUses
+{
+	width: 80%;
+	background-color: #474747;
+	border-radius: 0.5em;
+	padding: 1em;
+	color: #ffffff;
+	font-size: 1.3em;
+	font-family: "Century Gothic";
+	margin-left: 10%;
+	grid-row: 1/3;
+}
+.CasesOfUses p
+{
+	padding: 1em;
+}
+.LogIn
+{
+	margin-left: 10%;
+	background-color: #474747;
+	border-radius: 0.5em;
+	grid-row: 1/2;
+}
+.Statistic
+{
+	width: 80%;
+	background-color: #474747;
+	border-radius: 0.5em;
+	padding: 1em;
+	color: #ffffff;
+	font-size: 1.3em;
+	font-family: "Century Gothic";
+	margin-left: 10%;
+	grid-row: 2/3;
+}
+.Statistic p
+{
+	padding: 1em;
+}
+p .Yellow
+{
+	color: #fba90c;
+}
+.included 
+{
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+
+}
+.included input
+{
+	width: 80%;
+	margin-top: 2em;
+	padding: 0.5em;
+	border-radius: 0.5em;
+
+}
+
+.included button
+{
+	width: 40%;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	padding: 0.5em;
+	border-radius: 0.5em;
+
+}
+
