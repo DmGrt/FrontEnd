@@ -1,0 +1,89 @@
+*
+{
+  padding: 0;
+  margin: 0;
+}
+html
+{
+  background-image: url('../img/back.png');
+  background-size: cover;
+}
+html header
+{
+  background-image: url('../img/header.png');
+  min-height: 218px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.wrapper
+{
+  display: grid; 
+  grid-template-columns: 35% 65%;
+  padding: 0% 10% 0% 10%;
+  grid-column-gap: 2%;
+}
+
+.boxes
+{
+  font-size: 1em;
+  grid-template-rows: 60% 40%;
+  grid-row-gap: 10%;
+}
+
+.map
+{
+  height: 96%;
+  width: 96% ;
+  padding: 2% 2% 2% 2%;
+  border: none;
+}
+
+.mapOut
+{
+  background-color: #474747;
+  border-radius: 0.5em;
+}
+
+.grayBack
+{
+  background-color: #474747;
+  border-radius: 0.5em;
+  padding: 1% 1% 1% 1%;
+  margin: 0% 0% 5% 0%; 
+}
+
+.whiteGoth
+{
+  color: white;
+  font-family: "Century Gothic";
+  padding: 2% 0% 0% 2%;
+  list-style: none;
+}
+
+.whiteBorder
+{
+  border-radius: 0.5em;
+  border: 0.1em solid #ffffff;
+  margin: 5% 5% 5% 5%;
+}
+
+.buttons
+{
+  font-weight: bold;
+  margin: 5% 5% 5% 5%;
+  font-size: 1.3em;
+  color: #fba90c;
+  background: none;
+  border: none;
+}
+
+li
+{ 
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;  
+}
+
